@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import Settings from "./components/Settings";
+import Timer from "./components/Timer";
+import { useDisplay } from "./contexts/SettingsDisplayContext";
+import Quotes from "./components/Quotes";
 
-function App() {
+const App = () => {
+  const toggleDisplay = useDisplay();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container">
+        <Timer />
+        {toggleDisplay.showSettings ? <Settings /> : null}
+        <Quotes />
+      </div>
+      <h4>Pomo-do It! Copyright &copy; 2022 RLMR</h4>
+    </>
   );
-}
+};
 
 export default App;
