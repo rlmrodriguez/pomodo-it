@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/pomodo-it/static/css/main.829794d2.css",
+    "main.js": "/pomodo-it/static/js/main.f0ede922.js",
+    "static/js/845.796c5fa1.chunk.js": "/pomodo-it/static/js/845.796c5fa1.chunk.js",
+    "static/media/bell.mp3": "/pomodo-it/static/media/bell.a7eb518b5c42adf52bd8.mp3",
+    "static/media/pop.mp3": "/pomodo-it/static/media/pop.04e51be735adb3962673.mp3",
+    "index.html": "/pomodo-it/index.html",
+    "main.829794d2.css.map": "/pomodo-it/static/css/main.829794d2.css.map",
+    "main.f0ede922.js.map": "/pomodo-it/static/js/main.f0ede922.js.map",
+    "845.796c5fa1.chunk.js.map": "/pomodo-it/static/js/845.796c5fa1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.829794d2.css",
+    "static/js/main.f0ede922.js"
+  ]
+}
